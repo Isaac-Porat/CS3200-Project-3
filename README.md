@@ -8,7 +8,7 @@ This README outlines the Redis commands used in the Sneaker Shoe Inventory Sourc
 To create or update a reseller's search criteria:
 - HSET search_criteria:123 shoe_name "Air Force 1" size "10" price_range "100-200" zip_code "12345" quality_indicator "80-100"
 
-- ### Retrieve
+### Retrieve
 To retrieve a reseller's search criteria:
 - HGETALL search_criteria:123
 
